@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- 
+Student's Name
+Current Date 
+-->
+<html lang="en">
+<head>
+	<title>Position</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/extend05.css">
+</head>
+<body>
+
+	<div id="container">
+    
+        <!-- Use the header area for the website name or logo -->
+        <header>
+            <h1>Working with Positions</h1>
+        </header>
+
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+            
+            <div class="box sticky">
+                
+                <h2>Sticky</h2>
+                <p>This is an example of an element with a sticky position. Its position is based on the user's scroll position.</p>
+                <!-- Use the empty paragraph element below to briefly explain how to use the sticky position. -->
+                <p>The sticky position is used to keep an element within its block while you scroll through the webpage. You can achive this by using the position: sticky; rule in CSS or position: -webkit-sticky for Safari. Then you specifiy where you want the element to stay in this can be done by using the top, bottom, left, or right declaration. Once you done that you would have to set where in the page you want it to stay an example is with the top: 0; which keeps the block at the top of the webpage.</p>
+                
+            </div>
+            
+            <div class="box relative">
+                
+                <h2>Relative</h2>
+                <p>This is an example of an element with a relative position. It can move around a little, depending on the viewport, but it is in a position relative to itself.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the top and left properties and how it affected the relative box. -->
+                <p>I used the 75px for the top property and this changed the box by moving it up more than the original. Then I used the 20px for the left property and this changed the box by moving it to the left more than the original.</p>
+                
+            </div>
+            
+            <div class="box fixed">
+            
+                <h2>Fixed</h2>
+                <p>This is an example of an element with a fixed position. Its position is relative to the viewport.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the top and right properties and how it affected the fixed box. -->
+                <p>I used 60px for the top property and this changed the box by moving it down slightly from the original. Then I used 30px for the right property and this changed the box by moving it to the right more than original.</p>
+                
+            </div>
+            
+            <div class="box absolute">
+                
+                <h2>Absolute</h2>
+                <p>This is an example of an element with an absolute position. It is similar to the fixed position; however, it is positioned relative to the closest parent element.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the bottom and right properties and how it affected the absolute box. -->
+                <p>I used 30px for the bottom property and this changed the box by moving it 30px lower on the page. Then I used 45px for the right property and this changed the box by moving it over to the right by 45px.</p>
+                
+            </div>
+            
+        </main>
+
+	</div>
+	
+</body>
+</html>
